@@ -32,10 +32,43 @@ Add user to the Administrators group
 `runas /user:[user] secpol.msc`
 Run as specific user (Does not bypass UAC)
 
+`taskkill /fi "PID eq ##"`
+Kill process with specific PID
+
+`schtasks`
+Schedule Tasks
+
+
 ### Run Commands
-`LUSRMGR.MSC`
+`lusrmgr.msc`
 Local user management
 
 `powershell OR powershell_ise`
 Launch PowerShell or the ISE
 
+`regedit`
+GUI Registry editor
+
+`services.msc`
+Windows Services
+
+
+### Windows Registry
+Common Registry Value Types
+```
+REG_SZ - String
+REG_MULTI_SZ - Multiple Strings
+REG_DWORD - A number between 0 and 4,294,967,295
+REG_BINARY - Binary Data
+```
+
+`reg query "HKLM\Software\Microsoft\Windows\CurrentVersion\Run" /s`
+Look at the registry key used to execute software on boot
+
+
+### WMIC
+`wmic process call create [process]`
+Create a process
+
+`wmic /node:[IP OR Servername]`
+Remote WMIC Commands
