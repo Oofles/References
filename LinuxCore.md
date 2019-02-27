@@ -1,17 +1,22 @@
-## Report disc usage
-df
+Report disc usage
+`df`
 
-## Identify the file type
-file
+Identify the file type
+`file`
 
-## Display a list of open files
-lsof
+Display a list of open files
+`lsof`
 
-## Remove duplicate lines from a sorted file or sorted STDIN
-uniq
+Remove duplicate lines from a sorted file or sorted STDIN
+`uniq`
 
-## View detailed information about a file
-stat
+View detailed information about a file
+`stat`
 
-## Symbolic link
-ln [file] [link]
+Symbolic link
+`ln [file] [link]`
+
+Create new group
+`groupadd [name]`
+Add user to a group
+`gpasswd -a [user] [group]
