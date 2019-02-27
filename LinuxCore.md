@@ -19,5 +19,5 @@ Symbolic link
 `groupadd [name]`
 Create new group
 
-`gpasswd -a [user] [group]
+`gpasswd -a [user] [group]`
 Add user to a group
