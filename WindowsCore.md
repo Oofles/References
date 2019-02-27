@@ -11,16 +11,11 @@ Make a file hidden
 
 `netstat -ano`
 Active Connections
-
-a = listening ports
-
-n = display numberic port numbers and IP addresses instead of names
-
-o = displays process ID
-
-e = network statistics
-
-r = routing table
+- a = listening ports
+- n = display numberic port numbers and IP addresses instead of names
+- o = displays process ID
+- e = network statistics
+- r = routing table
 
 `type [hideme.txt] > [logo.png:ads.txt]`
 Create an alternate data stream file
