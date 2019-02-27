@@ -1,56 +1,52 @@
 ### Windows Core Commands
 
-`dir /ah`
-Show hidden files and directories
+Show hidden files and directories:
+- `dir /ah`
 
-`dir /r`
-Show Alternate Data Streams
+Show Alternate Data Streams:
+- `dir /r`
 
-`attrib [file] +h`
 Make a file hidden
+- `attrib [file] +h`
 
-`netstat -ano`
-Active Connections
+
+Active Connections:
+- `netstat -ano`
 - a = listening ports
 - n = display numberic port numbers and IP addresses instead of names
 - o = displays process ID
 - e = network statistics
 - r = routing table
 
-`type [hideme.txt] > [logo.png:ads.txt]`
-Create an alternate data stream file
+Create an alternate data stream file:
+- `type [hideme.txt] > [logo.png:ads.txt]`
 
-`net user [user] * /add`
-Add user, and prompt for password
+Add user, and prompt for password:
+- `net user [user] * /add`
 
-`net user [user] /active:no`
-Disable user account
+Disable user account:
+- `net user [user] /active:no`
 
-`net localgroup administrators [user] /add`
-Add user to the Administrators group
+Add user to the Administrators group:
+- `net localgroup administrators [user] /add`
 
-`runas /user:[user] secpol.msc`
 Run as specific user (Does not bypass UAC)
+- `runas /user:[user] secpol.msc`
 
-`taskkill /fi "PID eq ##"`
-Kill process with specific PID
+Kill process with specific PID:
+- `taskkill /fi "PID eq ##"`
 
-`schtasks`
-Schedule Tasks
+Schedule Tasks:
+- `schtasks`
 
 
 ### Run Commands
-`lusrmgr.msc`
-Local user management
-
-`powershell OR powershell_ise`
-Launch PowerShell or the ISE
-
-`regedit`
-GUI Registry editor
-
-`services.msc`
-Windows Services
+```
+lusrmgr.msc
+powershell OR powershell_ise
+regedit
+services.msc
+```
 
 
 ### Windows Registry
@@ -62,8 +58,8 @@ REG_DWORD - A number between 0 and 4,294,967,295
 REG_BINARY - Binary Data
 ```
 
-`reg query "HKLM\Software\Microsoft\Windows\CurrentVersion\Run" /s`
-Look at the registry key used to execute software on boot
+Look at the registry key used to execute software on boot:
+- `reg query "HKLM\Software\Microsoft\Windows\CurrentVersion\Run" /s`
 
 
 ### WMIC
