@@ -67,8 +67,8 @@ Look at the registry key used to execute software on boot
 
 
 ### WMIC
-`wmic process call create [process]`
 Create a process
+- `wmic process call create [process]`
 
-`wmic /node:[IP OR Servername]`
-Remote WMIC Commands
+Remote WMIC Commands:
+- `wmic /node:[IP OR Servername]`
