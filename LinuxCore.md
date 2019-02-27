@@ -1,22 +1,23 @@
-Report disc usage
 `df`
+Report disc usage
 
-Identify the file type
 `file`
+Identify the file type
 
-Display a list of open files
 `lsof`
+Display a list of open files
 
-Remove duplicate lines from a sorted file or sorted STDIN
 `uniq`
+Remove duplicate lines from a sorted file or sorted STDIN
 
-View detailed information about a file
 `stat`
+View detailed information about a file
 
-Symbolic link
 `ln [file] [link]`
+Symbolic link
 
-Create new group
 `groupadd [name]`
-Add user to a group
+Create new group
+
 `gpasswd -a [user] [group]
+Add user to a group
